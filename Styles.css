@@ -1,0 +1,87 @@
+h3{
+ background-color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-color: black;
+}
+p{
+    background-color: white;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    background-color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: flexbox;
+}
+
+h1{
+    background-color: purple;
+    text-align: center;
+    font-style: italic;
+}
+.imagen{
+    width: 750´´´´px;
+    height: 400px;
+    
+}
+body{
+    background-image: url(Imagenes/Star\ Wars.jpg);
+}
+.item {
+    display: inline-block;
+    padding: 20px;
+    transition: all 0.3s linear;
+  }
+  
+  .item a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .item:hover {
+    transform: scale(1.5, 1.5);
+    background-color: rgb(226, 26, 26); 
+  }
+  
+  .menu {
+    background-color: black;
+    padding: 10px;
+  }
+  .sith{
+    background-color: red;
+  }
+  .jedi{
+    background-color: blue;
+  }
+  .mandalorians{
+    background-color: orangered;
+  
+  }
+ .tarjeta{
+   width: 300px;
+   height: 200px;
+   background-color: white;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   border-radius: 30px 30px 0px 0px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .juego{
+   border-radius: 30px 30px 0px 0px;
+   width: 300;
+   height: 200
+ }
+.boton{
+  background-color: blue;
+  border-radius: 50px;
+  width: 500px;
+  color: white;
+  padding: 0px 50px 30px 50px;
+  text-align: center;
+
+}
+  
+
+
+ 
